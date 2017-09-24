@@ -1,0 +1,38 @@
+Reza,Supervised by,Ayoub
+Reza,Supervised by,Bachelor
+Reza,Marital Status,Bachelor
+Reza,Student at,Bachelor
+Reza,Knows,IUT
+Reza,Knows,IUT
+Reza,Knows,IUT
+Reza,Degree,IUT
+Navid,Supervised by,IUT
+Navid,Marital Status,M.Sc.
+Navid,Student at,M.Sc.
+Navid,Degree,M.Sc.
+Navid,Knows,Married
+Navid,Friend with,Married
+Navid,Friend with,Married
+Nima,Supervised by,Married 
+Nima,Marital Status,Mirzaee
+Nima,Student at,Navid
+Nima,Friend with,Nematbakhsh
+Nima,Knows,Nematbakhsh
+Nima,Degree,Nematbakhsh
+Ayoub,Supervised by,Nematbakhsh
+Ayoub,Marital Status,Nima
+Ayoub,Student at,Nima
+Ayoub,Degree,Palhang
+Saraee,Marital Status,Ph.D.
+Saraee,Teach in,Ph.D.
+Saraee,Knows,Ph.D.
+Saraee,Knows,Ph.D.
+Saraee,Degree,Reza
+Nematbakhsh,Friend with,Reza
+Nematbakhsh,Marital Status,Reza
+Nematbakhsh,Teach in,Reza
+Nematbakhsh,Knows,Saraee
+Nematbakhsh,Degree,Saraee
+Palhang,Teach in,Saraee
+Palhang,Marital Status,UI
+Palhang,Degree,UI
