@@ -1,0 +1,980 @@
+s,p,o
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/2000/01/rdf-schema#label,age
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/2000/01/rdf-schema#comment,The age in years of some agent.
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/age,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/2000/01/rdf-schema#label,Coastal
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space
+http://xmlns.com/foaf/0.1/surname,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/surname,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,archaic
+http://xmlns.com/foaf/0.1/surname,http://www.w3.org/2000/01/rdf-schema#label,Surname
+http://xmlns.com/foaf/0.1/surname,http://www.w3.org/2000/01/rdf-schema#comment,The surname of some person.
+http://xmlns.com/foaf/0.1/surname,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/surname,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/surname,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/surname,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#Project,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#Project,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b0
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/2002/07/owl#equivalentProperty,http://purl.org/dc/terms/creator
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/2002/07/owl#inverseOf,http://xmlns.com/foaf/0.1/made
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/2000/01/rdf-schema#label,maker
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/2000/01/rdf-schema#comment,An agent that  made this thing.
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/maker,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#mailingLists,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#title,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region,http://www.w3.org/2000/01/rdf-schema#label,Region
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#title,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#title,http://www.w3.org/2000/01/rdf-schema#label,title
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AdministrativeStaff,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AdministrativeStaff,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Employee
+http://www.mindswap.org/ontologies/debugging/university.owl#Library,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/2000/01/rdf-schema#label,depiction
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/2000/01/rdf-schema#comment,A depiction of some thing.
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Image
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/depiction,http://www.w3.org/2002/07/owl#inverseOf,http://xmlns.com/foaf/0.1/depicts
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#researchInterest,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#researchInterest,http://www.w3.org/2000/01/rdf-schema#label,is researching
+http://xmlns.com/foaf/0.1/geekcode,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/geekcode,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,archaic
+http://xmlns.com/foaf/0.1/geekcode,http://www.w3.org/2000/01/rdf-schema#label,geekcode
+http://xmlns.com/foaf/0.1/geekcode,http://www.w3.org/2000/01/rdf-schema#comment,"A textual geekcode for this person, see http://www.geekcode.com/geek.html"
+http://xmlns.com/foaf/0.1/geekcode,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/geekcode,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/geekcode,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/geekcode,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Faculty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Faculty,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Employee
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#dateOfLastModification,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#volume,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/2000/01/rdf-schema#label,Mountains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartTime,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartTime,http://www.w3.org/2000/01/rdf-schema#domain,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartTime,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild,http://www.w3.org/2000/01/rdf-schema#label,Mild
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Climatic_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical
+http://www.mindswap.org/ontologies/debugging/university.owl#Network,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Thing
+http://www.mindswap.org/ontologies/debugging/university.owl#Network,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual
+http://xmlns.com/foaf/0.1/knows,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/knows,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/knows,http://www.w3.org/2000/01/rdf-schema#label,knows
+http://xmlns.com/foaf/0.1/knows,http://www.w3.org/2000/01/rdf-schema#comment,A person known by this person (indicating some level of reciprocated interaction between the parties).
+http://xmlns.com/foaf/0.1/knows,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/knows,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/knows,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/knows,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing,http://www.w3.org/2000/01/rdf-schema#label,Spatial Thing
+http://xmlns.com/foaf/0.1/OnlineAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/OnlineAccount,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/OnlineAccount,http://www.w3.org/2000/01/rdf-schema#label,Online Account
+http://xmlns.com/foaf/0.1/OnlineAccount,http://www.w3.org/2000/01/rdf-schema#comment,An online account.
+http://xmlns.com/foaf/0.1/OnlineAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/OnlineAccount,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/OnlineAccount,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/nick
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/2000/01/rdf-schema#label,MSN chat ID
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/2000/01/rdf-schema#comment,An MSN chat ID
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/msnChatID,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/2000/01/rdf-schema#label,Yahoo chat ID
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/2000/01/rdf-schema#comment,A Yahoo chat ID
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/nick
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/yahooChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#telephone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#telephone,http://www.w3.org/2000/01/rdf-schema#label,telephone number
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#ResearchGroup,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#ResearchGroup,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#College
+http://www.mindswap.org/ontologies/debugging/university.owl#AI,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Thing
+http://www.mindswap.org/ontologies/debugging/university.owl#AI,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Meeting,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Meeting,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Meeting,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b1
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Meeting,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b2
+http://xmlns.com/foaf/0.1/givenName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/givenName,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/givenName,http://www.w3.org/2000/01/rdf-schema#label,Given name
+http://xmlns.com/foaf/0.1/givenName,http://www.w3.org/2000/01/rdf-schema#comment,The given name of some person.
+http://xmlns.com/foaf/0.1/givenName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/givenName,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/thumbnail,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/thumbnail,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/thumbnail,http://www.w3.org/2000/01/rdf-schema#label,thumbnail
+http://xmlns.com/foaf/0.1/thumbnail,http://www.w3.org/2000/01/rdf-schema#comment,A derived thumbnail image.
+http://xmlns.com/foaf/0.1/thumbnail,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/thumbnail,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Image
+http://xmlns.com/foaf/0.1/thumbnail,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Image
+http://xmlns.com/foaf/0.1/thumbnail,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/OnlineChatAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/OnlineChatAccount,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/OnlineChatAccount,http://www.w3.org/2000/01/rdf-schema#label,Online Chat Account
+http://xmlns.com/foaf/0.1/OnlineChatAccount,http://www.w3.org/2000/01/rdf-schema#comment,An online chat account.
+http://xmlns.com/foaf/0.1/OnlineChatAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/OnlineChatAccount,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://xmlns.com/foaf/0.1/OnlineAccount
+http://xmlns.com/foaf/0.1/OnlineChatAccount,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#year,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/fundedBy,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/fundedBy,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,archaic
+http://xmlns.com/foaf/0.1/fundedBy,http://www.w3.org/2000/01/rdf-schema#label,funded by
+http://xmlns.com/foaf/0.1/fundedBy,http://www.w3.org/2000/01/rdf-schema#comment,An organization funding a project or person.
+http://xmlns.com/foaf/0.1/fundedBy,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/fundedBy,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/fundedBy,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/fundedBy,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AssociateProfessor,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AssociateProfessor,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Professor
+_:b2,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b2,http://www.w3.org/2002/07/owl#onProperty,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartDate
+_:b2,http://www.w3.org/2002/07/owl#cardinality,1
+http://xmlns.com/foaf/0.1/accountName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/accountName,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/accountName,http://www.w3.org/2000/01/rdf-schema#label,account name
+http://xmlns.com/foaf/0.1/accountName,http://www.w3.org/2000/01/rdf-schema#comment,Indicates the name (identifier) associated with this online account.
+http://xmlns.com/foaf/0.1/accountName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/accountName,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/OnlineAccount
+http://xmlns.com/foaf/0.1/accountName,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/accountName,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+_:b3,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b3,http://www.w3.org/2002/07/owl#onProperty,http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#year
+_:b3,http://www.w3.org/2002/07/owl#allValuesFrom,http://www.w3.org/2001/XMLSchema#integer
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#name,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#webpages,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical,http://www.w3.org/2000/01/rdf-schema#label,Tropical
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Climatic_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#State,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#State,http://www.w3.org/2000/01/rdf-schema#label,State
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#State,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Street,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Street,http://www.w3.org/2000/01/rdf-schema#label,Street
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Street,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Geographical_Region,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Geographical_Region,http://www.w3.org/2000/01/rdf-schema#label,Geographical region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Geographical_Region,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region
+http://xmlns.com/foaf/0.1/status,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/status,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/status,http://www.w3.org/2000/01/rdf-schema#label,status
+http://xmlns.com/foaf/0.1/status,http://www.w3.org/2000/01/rdf-schema#comment,A string expressing what the user is happy for the general public (normally) to know about their current activity.
+http://xmlns.com/foaf/0.1/status,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/status,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/status,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/status,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/dnaChecksum,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/dnaChecksum,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,archaic
+http://xmlns.com/foaf/0.1/dnaChecksum,http://www.w3.org/2000/01/rdf-schema#label,DNA checksum
+http://xmlns.com/foaf/0.1/dnaChecksum,http://www.w3.org/2000/01/rdf-schema#comment,A checksum for the DNA of some thing. Joke.
+http://xmlns.com/foaf/0.1/dnaChecksum,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/dnaChecksum,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/dnaChecksum,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Language,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Language,http://www.w3.org/2000/01/rdf-schema#label,Language
+http://www.mindswap.org/ontologies/debugging/university.owl#PGCourse,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.mindswap.org/ontologies/debugging/university.owl#PGCourse,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.mindswap.org/ontologies/debugging/university.owl#Course
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#hasOfficialLanguage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#hasOfficialLanguage,http://www.w3.org/2000/01/rdf-schema#domain,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#hasOfficialLanguage,http://www.w3.org/2000/01/rdf-schema#range,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Language
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#hasOfficialLanguage,http://www.w3.org/2002/07/owl#inverseOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isOfficialLanguageOf
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Ontology
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region,http://www.w3.org/2002/07/owl#imports,http://purl.org/dc/elements/1.1/
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#age,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#age,http://www.w3.org/2000/01/rdf-schema#label,is age
+http://xmlns.com/foaf/0.1/interest,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/interest,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/interest,http://www.w3.org/2000/01/rdf-schema#label,interest
+http://xmlns.com/foaf/0.1/interest,http://www.w3.org/2000/01/rdf-schema#comment,A page about a topic of interest to this person.
+http://xmlns.com/foaf/0.1/interest,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/interest,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/interest,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/interest,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#approaches,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Article,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Article,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Publication
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/2000/01/rdf-schema#label,depicts
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/2000/01/rdf-schema#comment,A thing depicted in this representation.
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Image
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/depicts,http://www.w3.org/2002/07/owl#inverseOf,http://xmlns.com/foaf/0.1/depiction
+http://xmlns.com/foaf/0.1/account,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/account,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/account,http://www.w3.org/2000/01/rdf-schema#label,account
+http://xmlns.com/foaf/0.1/account,http://www.w3.org/2000/01/rdf-schema#comment,Indicates an account held by this agent.
+http://xmlns.com/foaf/0.1/account,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/account,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/account,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/OnlineAccount
+http://xmlns.com/foaf/0.1/account,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#description,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/sha1,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/sha1,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/sha1,http://www.w3.org/2000/01/rdf-schema#label,sha1sum (hex)
+http://xmlns.com/foaf/0.1/sha1,http://www.w3.org/2000/01/rdf-schema#comment,"A sha1sum hash, in hex."
+http://xmlns.com/foaf/0.1/sha1,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/sha1,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/sha1,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#consistsOf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#consistsOf,http://www.w3.org/2000/01/rdf-schema#domain,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#consistsOf,http://www.w3.org/2000/01/rdf-schema#range,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#consistsOf,http://www.w3.org/2002/07/owl#inverseOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isPartOf
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#consistsOf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#TransitiveProperty
+http://www.mindswap.org/ontologies/debugging/university.owl#UGCourse,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.mindswap.org/ontologies/debugging/university.owl#UGCourse,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.mindswap.org/ontologies/debugging/university.owl#Course
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#date,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/myersBriggs,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/myersBriggs,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/myersBriggs,http://www.w3.org/2000/01/rdf-schema#label,myersBriggs
+http://xmlns.com/foaf/0.1/myersBriggs,http://www.w3.org/2000/01/rdf-schema#comment,A Myers Briggs (MBTI) personality classification.
+http://xmlns.com/foaf/0.1/myersBriggs,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/myersBriggs,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/myersBriggs,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/myersBriggs,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/schoolHomepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/schoolHomepage,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/schoolHomepage,http://www.w3.org/2000/01/rdf-schema#label,schoolHomepage
+http://xmlns.com/foaf/0.1/schoolHomepage,http://www.w3.org/2000/01/rdf-schema#comment,A homepage of a school attended by the person.
+http://xmlns.com/foaf/0.1/schoolHomepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/schoolHomepage,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/schoolHomepage,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/schoolHomepage,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#abstract,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2000/01/rdf-schema#comment,A person.
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2000/01/rdf-schema#label,Person
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2002/07/owl#disjointWith,http://xmlns.com/foaf/0.1/Project
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2002/07/owl#equivalentClass,http://schema.org/Person
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2002/07/owl#equivalentClass,http://www.w3.org/2000/10/swap/pim/contact#Person
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/Person,http://www.w3.org/2002/07/owl#disjointWith,http://xmlns.com/foaf/0.1/Organization
+_:b4,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b4,http://www.w3.org/2002/07/owl#onProperty,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartDate
+_:b4,http://www.w3.org/2002/07/owl#cardinality,1
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/2000/01/rdf-schema#label,logo
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/2000/01/rdf-schema#comment,A logo representing some thing.
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/logo,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#lastPage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#year,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#productMailingList,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert,http://www.w3.org/2000/01/rdf-schema#label,Desert
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Climatic_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Settlement,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Settlement,http://www.w3.org/2000/01/rdf-schema#label,Settlement
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Settlement,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region
+http://www.mindswap.org/ontologies/debugging/university.owl#HCI,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Thing
+http://www.mindswap.org/ontologies/debugging/university.owl#HCI,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndTime,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndTime,http://www.w3.org/2000/01/rdf-schema#domain,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndTime,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+http://www.mindswap.org/ontologies/debugging/university.owl#Graphics,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Thing
+http://www.mindswap.org/ontologies/debugging/university.owl#Graphics,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/2000/01/rdf-schema#label,topic
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/2000/01/rdf-schema#comment,A topic of some page or document.
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/2002/07/owl#inverseOf,http://xmlns.com/foaf/0.1/page
+http://xmlns.com/foaf/0.1/topic,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#applicationAreas,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/member,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/member,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/member,http://www.w3.org/2000/01/rdf-schema#label,member
+http://xmlns.com/foaf/0.1/member,http://www.w3.org/2000/01/rdf-schema#comment,Indicates a member of a Group
+http://xmlns.com/foaf/0.1/member,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/member,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Group
+http://xmlns.com/foaf/0.1/member,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/member,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/2000/01/rdf-schema#label,name
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/2000/01/rdf-schema#comment,A name for some thing.
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/name,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2004/02/skos/core#Concept,http://www.w3.org/2000/01/rdf-schema#label,Concept
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/2000/01/rdf-schema#label,ICQ chat ID
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/nick
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/2000/01/rdf-schema#comment,An ICQ chat ID
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/icqChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#fax,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/Project,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/Project,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/Project,http://www.w3.org/2000/01/rdf-schema#label,Project
+http://xmlns.com/foaf/0.1/Project,http://www.w3.org/2000/01/rdf-schema#comment,A project (a collective endeavour of some kind).
+http://xmlns.com/foaf/0.1/Project,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/Project,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/Project,http://www.w3.org/2002/07/owl#disjointWith,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/Project,http://www.w3.org/2002/07/owl#disjointWith,http://xmlns.com/foaf/0.1/Document
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#address,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#uses,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#uses,http://www.w3.org/2000/01/rdf-schema#domain,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Country
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#uses,http://www.w3.org/2000/01/rdf-schema#range,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Currency
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#uses,http://www.w3.org/2002/07/owl#inverseOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isUsedIn
+http://xmlns.com/foaf/0.1/family_name,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/family_name,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,archaic
+http://xmlns.com/foaf/0.1/family_name,http://www.w3.org/2000/01/rdf-schema#label,family_name
+http://xmlns.com/foaf/0.1/family_name,http://www.w3.org/2000/01/rdf-schema#comment,The family name of some person.
+http://xmlns.com/foaf/0.1/family_name,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/family_name,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/family_name,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/family_name,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/currentProject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/currentProject,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/currentProject,http://www.w3.org/2000/01/rdf-schema#label,current project
+http://xmlns.com/foaf/0.1/currentProject,http://www.w3.org/2000/01/rdf-schema#comment,A current project this person works on.
+http://xmlns.com/foaf/0.1/currentProject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/currentProject,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/currentProject,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/currentProject,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/2000/01/rdf-schema#comment,A homepage for some thing.
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/page
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/2000/01/rdf-schema#label,homepage
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/homepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#photo,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/page
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/2000/01/rdf-schema#comment,"A weblog of some thing (whether person, group, company etc.)."
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/2000/01/rdf-schema#label,weblog
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/weblog,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ResearchAssistant,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ResearchAssistant,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Student
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#location,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Person,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isOfficialLanguageOf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isOfficialLanguageOf,http://www.w3.org/2000/01/rdf-schema#domain,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Language
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isOfficialLanguageOf,http://www.w3.org/2000/01/rdf-schema#range,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isOfficialLanguageOf,http://www.w3.org/2002/07/owl#inverseOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#hasOfficialLanguage
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#firstName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/phone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/phone,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/phone,http://www.w3.org/2000/01/rdf-schema#label,phone
+http://xmlns.com/foaf/0.1/phone,http://www.w3.org/2000/01/rdf-schema#comment,"A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)."
+http://xmlns.com/foaf/0.1/phone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/phone,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#County,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#County,http://www.w3.org/2000/01/rdf-schema#label,County
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#County,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#SoftwareProject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#SoftwareProject,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#DevelopmentProject
+http://xmlns.com/foaf/0.1/Image,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/Image,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/Image,http://www.w3.org/2000/01/rdf-schema#label,Image
+http://xmlns.com/foaf/0.1/Image,http://www.w3.org/2000/01/rdf-schema#comment,An image.
+http://xmlns.com/foaf/0.1/Image,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/Image,http://www.w3.org/2002/07/owl#equivalentClass,http://schema.org/ImageObject
+http://xmlns.com/foaf/0.1/Image,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/Image,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/2000/01/rdf-schema#label,made
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/2000/01/rdf-schema#comment,Something that was made by this agent.
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/made,http://www.w3.org/2002/07/owl#inverseOf,http://xmlns.com/foaf/0.1/maker
+http://www.mindswap.org/ontologies/debugging/university.owl#Course,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://purl.org/dc/elements/1.1/description,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/2000/01/rdf-schema#comment,A document that this thing is the primary topic of.
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/2000/01/rdf-schema#label,is primary topic of
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/page
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,http://www.w3.org/2002/07/owl#inverseOf,http://xmlns.com/foaf/0.1/primaryTopic
+http://www.mindswap.org/ontologies/debugging/university.owl#PhD,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.mindswap.org/ontologies/debugging/university.owl#PhD,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.mindswap.org/ontologies/debugging/university.owl#Course
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/2000/01/rdf-schema#label,Document
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/2000/01/rdf-schema#comment,A document.
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/2002/07/owl#equivalentClass,http://schema.org/CreativeWork
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/2002/07/owl#disjointWith,http://xmlns.com/foaf/0.1/Organization
+http://xmlns.com/foaf/0.1/Document,http://www.w3.org/2002/07/owl#disjointWith,http://xmlns.com/foaf/0.1/Project
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#Department,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#Department,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#College
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#proceedingsTitle,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#productName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/OnlineGamingAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/OnlineGamingAccount,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/OnlineGamingAccount,http://www.w3.org/2000/01/rdf-schema#label,Online Gaming Account
+http://xmlns.com/foaf/0.1/OnlineGamingAccount,http://www.w3.org/2000/01/rdf-schema#comment,An online gaming account.
+http://xmlns.com/foaf/0.1/OnlineGamingAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/OnlineGamingAccount,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://xmlns.com/foaf/0.1/OnlineAccount
+http://xmlns.com/foaf/0.1/OnlineGamingAccount,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/lastName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/lastName,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/lastName,http://www.w3.org/2000/01/rdf-schema#label,lastName
+http://xmlns.com/foaf/0.1/lastName,http://www.w3.org/2000/01/rdf-schema#comment,The last name of a person.
+http://xmlns.com/foaf/0.1/lastName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/lastName,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/lastName,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/lastName,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Climatic_Region,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Climatic_Region,http://www.w3.org/2000/01/rdf-schema#label,Climatic region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Climatic_Region,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#name,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#name,http://www.w3.org/2000/01/rdf-schema#label,name
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/2000/01/rdf-schema#label,gender
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/2000/01/rdf-schema#comment,The gender of this Agent (typically but not necessarily 'male' or 'female').
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/gender,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Employee,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Employee,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Person
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#email,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/theme,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/theme,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,archaic
+http://xmlns.com/foaf/0.1/theme,http://www.w3.org/2000/01/rdf-schema#label,theme
+http://xmlns.com/foaf/0.1/theme,http://www.w3.org/2000/01/rdf-schema#comment,A theme.
+http://xmlns.com/foaf/0.1/theme,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/theme,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/theme,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/theme,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ClericalStaff,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ClericalStaff,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AdministrativeStaff
+_:b1,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b1,http://www.w3.org/2002/07/owl#onProperty,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndDate
+_:b1,http://www.w3.org/2002/07/owl#cardinality,1
+_:b5,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b5,http://www.w3.org/2002/07/owl#onProperty,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartDate
+_:b5,http://www.w3.org/2002/07/owl#cardinality,1
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/2000/01/rdf-schema#label,jabber ID
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/2000/01/rdf-schema#comment,A jabber ID for something.
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/jabberID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isPartOf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isPartOf,http://www.w3.org/2000/01/rdf-schema#domain,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isPartOf,http://www.w3.org/2000/01/rdf-schema#range,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isPartOf,http://www.w3.org/2002/07/owl#inverseOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#consistsOf
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isPartOf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#TransitiveProperty
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Title,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic,http://www.w3.org/2000/01/rdf-schema#label,Arctic
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Climatic_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/2000/01/rdf-schema#comment,An AIM chat ID
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/2000/01/rdf-schema#label,AIM chat ID
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/aimChatID,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/nick
+http://xmlns.com/foaf/0.1/workplaceHomepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/workplaceHomepage,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/workplaceHomepage,http://www.w3.org/2000/01/rdf-schema#label,workplace homepage
+http://xmlns.com/foaf/0.1/workplaceHomepage,http://www.w3.org/2000/01/rdf-schema#comment,A workplace homepage of some person; the homepage of an organization they work for.
+http://xmlns.com/foaf/0.1/workplaceHomepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/workplaceHomepage,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/workplaceHomepage,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/workplaceHomepage,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#keyword,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#officeNumber,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#officeNumber,http://www.w3.org/2000/01/rdf-schema#label,office room No.
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/2000/01/rdf-schema#label,personal mailbox
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/2000/01/rdf-schema#comment,"A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox."
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/mbox,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#UGStudent,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#UGStudent,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Student
+http://xmlns.com/foaf/0.1/focus,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/focus,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/focus,http://www.w3.org/2000/01/rdf-schema#label,focus
+http://xmlns.com/foaf/0.1/focus,http://www.w3.org/2000/01/rdf-schema#comment,The underlying or 'focal' entity associated with some SKOS-described concept.
+http://xmlns.com/foaf/0.1/focus,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/focus,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2004/02/skos/core#Concept
+http://xmlns.com/foaf/0.1/focus,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/focus,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/2000/01/rdf-schema#label,openid
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/openid,http://www.w3.org/2000/01/rdf-schema#comment,An OpenID for an Agent.
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#PGStudent,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#PGStudent,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Student
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#productFAQ,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical,http://www.w3.org/2000/01/rdf-schema#label,Subtropical
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Climatic_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Arctic
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Desert
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mild
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Subtropical,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Tropical
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AssistantProfessor,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AssistantProfessor,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Professor
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Workshop,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Workshop,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Workshop,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b6
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Workshop,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b5
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Country,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Country,http://www.w3.org/2000/01/rdf-schema#label,Country
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Country,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region
+http://xmlns.com/foaf/0.1/Group,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/Group,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/Group,http://www.w3.org/2000/01/rdf-schema#label,Group
+http://xmlns.com/foaf/0.1/Group,http://www.w3.org/2000/01/rdf-schema#comment,A class of Agents.
+http://xmlns.com/foaf/0.1/Group,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/Group,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,http://www.w3.org/2000/01/rdf-schema#label,Online E-commerce Account
+http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,http://www.w3.org/2000/01/rdf-schema#comment,An online e-commerce account.
+http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://xmlns.com/foaf/0.1/OnlineAccount
+http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.w3.org/2002/07/owl#Thing,http://www.w3.org/2000/01/rdf-schema#label,Thing
+http://www.w3.org/2002/07/owl#Thing,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/plan,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/plan,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/plan,http://www.w3.org/2000/01/rdf-schema#label,plan
+http://xmlns.com/foaf/0.1/plan,http://www.w3.org/2000/01/rdf-schema#comment,"A .plan comment, in the tradition of finger and '.plan' files."
+http://xmlns.com/foaf/0.1/plan,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/plan,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/plan,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/plan,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#DevelopmentProject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#DevelopmentProject,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#Project
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartDate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartDate,http://www.w3.org/2000/01/rdf-schema#domain,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasStartDate,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#PostDoc,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#PostDoc,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Faculty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region,http://www.w3.org/2000/01/rdf-schema#label,Environmental region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Professor,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Professor,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Faculty
+http://xmlns.com/foaf/0.1/membershipClass,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/membershipClass,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/membershipClass,http://www.w3.org/2000/01/rdf-schema#label,membershipClass
+http://xmlns.com/foaf/0.1/membershipClass,http://www.w3.org/2000/01/rdf-schema#comment,Indicates the class of individuals that are a member of a Group
+http://xmlns.com/foaf/0.1/membershipClass,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://xmlns.com/foaf/0.1/membershipClass,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/title,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/title,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/title,http://www.w3.org/2000/01/rdf-schema#label,title
+http://xmlns.com/foaf/0.1/title,http://www.w3.org/2000/01/rdf-schema#comment,"Title (Mr, Mrs, Ms, Dr. etc)"
+http://xmlns.com/foaf/0.1/title,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/title,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.mindswap.org/ontologies/debugging/university.owl#UGLibrary,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.mindswap.org/ontologies/debugging/university.owl#UGLibrary,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.mindswap.org/ontologies/debugging/university.owl#Library
+http://purl.org/dc/elements/1.1/date,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Student,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Student,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Person
+http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/2000/01/rdf-schema#label,Agent
+http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/2000/01/rdf-schema#comment,"An agent (eg. person, group, software or physical artifact)."
+http://xmlns.com/foaf/0.1/Agent,http://www.w3.org/2002/07/owl#equivalentClass,http://purl.org/dc/terms/Agent
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Publication,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Publication,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b3
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Publication,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b7
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#emailAddress,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#emailAddress,http://www.w3.org/2000/01/rdf-schema#label,can be reached at
+http://www.mindswap.org/ontologies/debugging/university.owl#PGLibrary,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.mindswap.org/ontologies/debugging/university.owl#PGLibrary,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.mindswap.org/ontologies/debugging/university.owl#Library
+_:b0,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b0,http://www.w3.org/2002/07/owl#onProperty,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#title
+_:b0,http://www.w3.org/2002/07/owl#allValuesFrom,http://www.w3.org/2001/XMLSchema#string
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Lecturer,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Lecturer,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Faculty
+http://xmlns.com/foaf/0.1/LabelProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/LabelProperty,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/LabelProperty,http://www.w3.org/2000/01/rdf-schema#label,Label Property
+http://xmlns.com/foaf/0.1/LabelProperty,http://www.w3.org/2000/01/rdf-schema#comment,A foaf:LabelProperty is any RDF property with texual values that serve as labels.
+http://xmlns.com/foaf/0.1/LabelProperty,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/LabelProperty,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.w3.org/2001/XMLSchema#boolean,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Datatype
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,unstable
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/2000/01/rdf-schema#label,birthday
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/2000/01/rdf-schema#comment,"The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/birthday,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/2000/01/rdf-schema#label,sha1sum of a personal mailbox URI name
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/2000/01/rdf-schema#comment,"The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox."
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/mbox_sha1sum,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#number,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#VisitingProfessor,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#VisitingProfessor,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Professor
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#phone,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/nick,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/nick,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/nick,http://www.w3.org/2000/01/rdf-schema#label,nickname
+http://xmlns.com/foaf/0.1/nick,http://www.w3.org/2000/01/rdf-schema#comment,"A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)."
+http://xmlns.com/foaf/0.1/nick,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/nick,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/2000/01/rdf-schema#label,Organization
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/2000/01/rdf-schema#comment,An organization.
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/2002/07/owl#disjointWith,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/Organization,http://www.w3.org/2002/07/owl#disjointWith,http://xmlns.com/foaf/0.1/Document
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Presentation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Presentation,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event
+http://xmlns.com/foaf/0.1/publications,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/publications,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/publications,http://www.w3.org/2000/01/rdf-schema#label,publications
+http://xmlns.com/foaf/0.1/publications,http://www.w3.org/2000/01/rdf-schema#comment,A link to the publications of this person.
+http://xmlns.com/foaf/0.1/publications,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/publications,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/publications,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/publications,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/2000/01/rdf-schema#label,OffShore
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/2000/01/rdf-schema#label,image
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/2000/01/rdf-schema#comment,"An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)."
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Image
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/depiction
+http://xmlns.com/foaf/0.1/img,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/2000/01/rdf-schema#label,Skype ID
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/2000/01/rdf-schema#comment,A Skype ID
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/nick
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/skypeID,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#eventTitle,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/workInfoHomepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/workInfoHomepage,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/workInfoHomepage,http://www.w3.org/2000/01/rdf-schema#label,work info homepage
+http://xmlns.com/foaf/0.1/workInfoHomepage,http://www.w3.org/2000/01/rdf-schema#comment,A work info homepage of some person; a page about their work for some organization.
+http://xmlns.com/foaf/0.1/workInfoHomepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/workInfoHomepage,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/workInfoHomepage,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/workInfoHomepage,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/PersonalProfileDocument,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2000/01/rdf-schema#Class
+http://xmlns.com/foaf/0.1/PersonalProfileDocument,http://www.w3.org/2000/01/rdf-schema#label,PersonalProfileDocument
+http://xmlns.com/foaf/0.1/PersonalProfileDocument,http://www.w3.org/2000/01/rdf-schema#comment,A personal profile RDF document.
+http://xmlns.com/foaf/0.1/PersonalProfileDocument,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/PersonalProfileDocument,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/PersonalProfileDocument,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://xmlns.com/foaf/0.1/Document
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#College,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+_:b6,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b6,http://www.w3.org/2002/07/owl#onProperty,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndDate
+_:b6,http://www.w3.org/2002/07/owl#cardinality,1
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Currency,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Currency,http://www.w3.org/2000/01/rdf-schema#label,Currency
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#ResearchProject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#ResearchProject,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#Project
+_:b7,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b7,http://www.w3.org/2002/07/owl#onProperty,http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Title
+_:b7,http://www.w3.org/2002/07/owl#allValuesFrom,http://www.w3.org/2001/XMLSchema#string
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/2000/01/rdf-schema#label,Plains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/2000/01/rdf-schema#label,primary topic
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/2000/01/rdf-schema#comment,The primary topic of some page or document.
+http://xmlns.com/foaf/0.1/primaryTopic,http://www.w3.org/2002/07/owl#inverseOf,http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/based_near,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/based_near,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/based_near,http://www.w3.org/2000/01/rdf-schema#label,based near
+http://xmlns.com/foaf/0.1/based_near,http://www.w3.org/2000/01/rdf-schema#comment,"A location that something is based near, for some broadly human notion of near."
+http://xmlns.com/foaf/0.1/based_near,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/based_near,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://xmlns.com/foaf/0.1/based_near,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+http://xmlns.com/foaf/0.1/based_near,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://purl.org/dc/elements/1.1/title,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://xmlns.com/foaf/0.1/accountServiceHomepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/accountServiceHomepage,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/accountServiceHomepage,http://www.w3.org/2000/01/rdf-schema#label,account service homepage
+http://xmlns.com/foaf/0.1/accountServiceHomepage,http://www.w3.org/2000/01/rdf-schema#comment,Indicates a homepage of the service provide for this online account.
+http://xmlns.com/foaf/0.1/accountServiceHomepage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/accountServiceHomepage,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/OnlineAccount
+http://xmlns.com/foaf/0.1/accountServiceHomepage,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/accountServiceHomepage,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/2000/01/rdf-schema#label,OnShip
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,stable
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/2000/01/rdf-schema#label,page
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/2000/01/rdf-schema#comment,A page or document about this thing.
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/2000/01/rdf-schema#domain,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/page,http://www.w3.org/2002/07/owl#inverseOf,http://xmlns.com/foaf/0.1/topic
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#SystemStaff,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#SystemStaff,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AdministrativeStaff
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#middleInitial,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.semanticweb.org/ontologies/2015/10/Ontology1448702195267.owl,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Ontology
+http://www.semanticweb.org/ontologies/2015/10/Ontology1448702195267.owl,http://www.w3.org/2000/01/rdf-schema#label,Univ-bench Ontology
+http://www.semanticweb.org/ontologies/2015/10/Ontology1448702195267.owl,http://www.w3.org/2000/01/rdf-schema#comment,An university ontology for benchmark tests
+http://www.semanticweb.org/ontologies/2015/10/Ontology1448702195267.owl,http://www.w3.org/2002/07/owl#versionInfo,"univ-bench-ontology-owl, ver April 1, 2004"
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#FullProfessor,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#FullProfessor,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Professor
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#lastName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Journal,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Journal,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Publication
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://xmlns.com/foaf/0.1/,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Ontology
+http://xmlns.com/foaf/0.1/,http://purl.org/dc/elements/1.1/title,Friend of a Friend (FOAF) vocabulary
+http://xmlns.com/foaf/0.1/,http://purl.org/dc/elements/1.1/description,"The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language."
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/2000/01/rdf-schema#label,Hills
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/2000/01/rdf-schema#label,Space
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Environmental_Region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Coastal
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Hills
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Mountains
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OffShore
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#OnShip
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Space,http://www.w3.org/2002/07/owl#disjointWith,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Plains
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#firstPage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.mindswap.org/ontologies/debugging/university.owl#hasTenure,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.mindswap.org/ontologies/debugging/university.owl#hasTenure,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#boolean
+http://xmlns.com/foaf/0.1/topic_interest,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/topic_interest,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/topic_interest,http://www.w3.org/2000/01/rdf-schema#label,topic_interest
+http://xmlns.com/foaf/0.1/topic_interest,http://www.w3.org/2000/01/rdf-schema#comment,A thing of interest to this person.
+http://xmlns.com/foaf/0.1/topic_interest,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/topic_interest,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/topic_interest,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/topic_interest,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/wot/0.1/src_assurance,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Book,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Book,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://www.semanticweb.org/ontologies/2012/4/Ontology1336557684515.owl#Publication
+http://xmlns.com/foaf/0.1/firstName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/firstName,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/firstName,http://www.w3.org/2000/01/rdf-schema#label,firstName
+http://xmlns.com/foaf/0.1/firstName,http://www.w3.org/2000/01/rdf-schema#comment,The first name of a person.
+http://xmlns.com/foaf/0.1/firstName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/firstName,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/firstName,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/firstName,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/holdsAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/holdsAccount,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,archaic
+http://xmlns.com/foaf/0.1/holdsAccount,http://www.w3.org/2000/01/rdf-schema#label,account
+http://xmlns.com/foaf/0.1/holdsAccount,http://www.w3.org/2000/01/rdf-schema#comment,Indicates an account held by this agent.
+http://xmlns.com/foaf/0.1/holdsAccount,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/holdsAccount,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/holdsAccount,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/OnlineAccount
+http://xmlns.com/foaf/0.1/holdsAccount,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/wot/0.1/assurance,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndDate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndDate,http://www.w3.org/2000/01/rdf-schema#domain,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndDate,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#dateTime
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isUsedIn,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isUsedIn,http://www.w3.org/2000/01/rdf-schema#domain,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Currency
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isUsedIn,http://www.w3.org/2000/01/rdf-schema#range,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Country
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#isUsedIn,http://www.w3.org/2002/07/owl#inverseOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#uses
+_:b8,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+_:b8,http://www.w3.org/2002/07/owl#onProperty,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#hasEndDate
+_:b8,http://www.w3.org/2002/07/owl#cardinality,1
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region,http://www.w3.org/2000/01/rdf-schema#label,Administrative region
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Administrative_Region,http://www.w3.org/2000/01/rdf-schema#subClassOf,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Region
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/ka.owl#series,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#code,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#code,http://www.w3.org/2000/01/rdf-schema#domain,http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#Currency
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#code,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/XMLSchema#int
+http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#code,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty
+http://xmlns.com/foaf/0.1/givenname,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/givenname,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,archaic
+http://xmlns.com/foaf/0.1/givenname,http://www.w3.org/2000/01/rdf-schema#label,Given name
+http://xmlns.com/foaf/0.1/givenname,http://www.w3.org/2000/01/rdf-schema#comment,The given name of some person.
+http://xmlns.com/foaf/0.1/givenname,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/givenname,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://www.w3.org/2000/01/rdf-schema#Class,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Conference,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Conference,http://www.w3.org/2000/01/rdf-schema#subClassOf,file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Event
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Conference,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b4
+file:/C:/Users/User/Desktop/final%20ontologies%20for%20thesis/original%20ontologies/www04photo.owl#Conference,http://www.w3.org/2000/01/rdf-schema#subClassOf,_:b8
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/2000/01/rdf-schema#label,tipjar
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/2000/01/rdf-schema#comment,"A tipjar document for this agent, describing means for payment and reward."
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/2000/01/rdf-schema#subPropertyOf,http://xmlns.com/foaf/0.1/page
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Agent
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/2000/01/rdf-schema#range,http://xmlns.com/foaf/0.1/Document
+http://xmlns.com/foaf/0.1/tipjar,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/familyName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/familyName,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/familyName,http://www.w3.org/2000/01/rdf-schema#label,familyName
+http://xmlns.com/foaf/0.1/familyName,http://www.w3.org/2000/01/rdf-schema#comment,The family name of some person.
+http://xmlns.com/foaf/0.1/familyName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty
+http://xmlns.com/foaf/0.1/familyName,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/familyName,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2000/01/rdf-schema#Literal
+http://xmlns.com/foaf/0.1/familyName,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/
+http://xmlns.com/foaf/0.1/pastProject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://xmlns.com/foaf/0.1/pastProject,http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,testing
+http://xmlns.com/foaf/0.1/pastProject,http://www.w3.org/2000/01/rdf-schema#label,past project
+http://xmlns.com/foaf/0.1/pastProject,http://www.w3.org/2000/01/rdf-schema#comment,A project this person has previously worked on.
+http://xmlns.com/foaf/0.1/pastProject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty
+http://xmlns.com/foaf/0.1/pastProject,http://www.w3.org/2000/01/rdf-schema#domain,http://xmlns.com/foaf/0.1/Person
+http://xmlns.com/foaf/0.1/pastProject,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2002/07/owl#Thing
+http://xmlns.com/foaf/0.1/pastProject,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,http://xmlns.com/foaf/0.1/

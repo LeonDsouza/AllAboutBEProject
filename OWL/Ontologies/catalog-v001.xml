@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://aims.fao.org/aos/geopolitical.owl" uri="geopolitical.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://edamontology.org/" uri="swo_release/swo_release/swo_components/edam.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://localhost/Institute" uri="Project%20Stuff/instOntology.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region" uri="DLstruct.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://purl.obolibrary.org/obo/DINTO.owl" uri="DINTO_1.2.owl/DINTO_1.2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries" uri="Countries.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="Jena/apache-jena-3.1.1/apache-jena-3.1.1/src-examples/jena-examples/src/main/resources/data/pizza.owl.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/efo/swo/" uri="swo_release/swo_release/swo_components/originalsoftwareontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/" uri="swo_release/swo_release/swo_components/swo_core.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/algorithm/" uri="swo_release/swo_release/swo_components/swo_algorithms.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/data/" uri="swo_release/swo_release/swo_components/swo_data.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/interface/" uri="swo_release/swo_release/swo_components/swo_interface.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/license/" uri="swo_release/swo_release/swo_components/swo_licenses.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/maturity/" uri="swo_release/swo_release/swo_components/swo_maturity.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/objective/" uri="swo_release/swo_release/swo_components/swo_objectives.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/organization/" uri="swo_release/swo_release/swo_components/swo_organizations.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/swo.owl" uri="swo_release/swo_release/inferred_swo/swo_inferred.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ebi.ac.uk/swo/version/" uri="swo_release/swo_release/swo_components/swo_versions.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.eswc2006.org/technologies/ontology" uri="Jena/apache-jena-3.1.1/apache-jena-3.1.1/src-examples/data/eswc-2006-09-21.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.ics.forth.gr/isl/ontology/iMarineTLO/" uri="imarinetlo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="duplicate:http://www.owl-ontologies.com/2008/ZS.owl" uri="leo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="duplicate:http://www.owl-ontologies.com/2008/ZS.owl" uri="Thisleo-SSC-2017.04.02.19.03.40.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="duplicate:http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6" uri="Country%20(1).owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="duplicate:http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6" uri="Country%20(2).owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="duplicate:http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6" uri="Country.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.semanticweb.org/ontologies/2015/10/Ontology1448702195267.owl" uri="CMS.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.workingontologist.org/Examples/Chapter3/Product.owl" uri="Project%20Stuff/country.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="http://www.xfront.com/owl/ontologies/camera/" uri="Jena/apache-jena-3.1.1/apache-jena-3.1.1/src-examples/data/camera.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="shadowed:http://www.bpiresearch.com/BPMO/2004/03/03/cdl/Countries" uri="this/Countries.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="shadowed:http://www.ebi.ac.uk/swo/swo.owl" uri="swo_release/swo_release/swo_merged/swo_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="shadowed:http://www.owl-ontologies.com/2008/ZS.owl" uri="this/leo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="shadowed:http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6" uri="this/Country.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="urn:x-hp-jena:test1" uri="Jena/apache-jena-3.1.1/apache-jena-3.1.1/src-examples/data/test1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491739886762" name="urn:x-hp-jena:test2" uri="Jena/apache-jena-3.1.1/apache-jena-3.1.1/src-examples/data/test2.owl"/>
+    </group>
+</catalog>

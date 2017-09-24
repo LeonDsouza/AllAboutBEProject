@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema" >
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl" >
+	<!ENTITY daml "http://www.daml.org/2001/03/daml+oil" >
+	<!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+]>
+<rdf:RDF xmlns="http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region#" xml:base="http://mapekus.fiit.stuba.sk/mapekus/ontologies/v0.2/region" xmlns:xsd="&xsd;#" xmlns:rdf="&rdf;#" xmlns:rdfs="&rdfs;#" xmlns:owl="&owl;#" xmlns:daml="&daml;#" xmlns:dc="&dc;#">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="&dc;" />
+  </owl:Ontology>
+  <owl:Class rdf:ID="Region">
+    <rdfs:label xml:lang="en">Region</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Administrative_Region">
+    <rdfs:label xml:lang="en">Administrative region</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="Country">
+    <rdfs:label xml:lang="en">Country</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Administrative_Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="County">
+    <rdfs:label xml:lang="en">County</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Administrative_Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="Settlement">
+    <rdfs:label xml:lang="en">Settlement</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Administrative_Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="State">
+    <rdfs:label xml:lang="en">State</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Administrative_Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="Street">
+    <rdfs:label xml:lang="en">Street</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Administrative_Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="Climatic_Region">
+    <rdfs:label xml:lang="en">Climatic region</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="Arctic">
+    <rdfs:label xml:lang="en">Arctic</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Climatic_Region" />
+    <owl:disjointWith rdf:resource="#Desert" />
+    <owl:disjointWith rdf:resource="#Mild" />
+    <owl:disjointWith rdf:resource="#Subtropical" />
+    <owl:disjointWith rdf:resource="#Tropical" />
+  </owl:Class>
+  <owl:Class rdf:ID="Desert">
+    <rdfs:label xml:lang="en">Desert</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Climatic_Region" />
+    <owl:disjointWith rdf:resource="#Arctic" />
+    <owl:disjointWith rdf:resource="#Mild" />
+    <owl:disjointWith rdf:resource="#Subtropical" />
+    <owl:disjointWith rdf:resource="#Tropical" />
+  </owl:Class>
+  <owl:Class rdf:ID="Mild">
+    <rdfs:label xml:lang="en">Mild</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Climatic_Region" />
+    <owl:disjointWith rdf:resource="#Arctic" />
+    <owl:disjointWith rdf:resource="#Desert" />
+    <owl:disjointWith rdf:resource="#Subtropical" />
+    <owl:disjointWith rdf:resource="#Tropical" />
+  </owl:Class>
+  <owl:Class rdf:ID="Subtropical">
+    <rdfs:label xml:lang="en">Subtropical</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Climatic_Region" />
+    <owl:disjointWith rdf:resource="#Arctic" />
+    <owl:disjointWith rdf:resource="#Desert" />
+    <owl:disjointWith rdf:resource="#Mild" />
+    <owl:disjointWith rdf:resource="#Tropical" />
+  </owl:Class>
+  <owl:Class rdf:ID="Tropical">
+    <rdfs:label xml:lang="en">Tropical</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Climatic_Region" />
+    <owl:disjointWith rdf:resource="#Arctic" />
+    <owl:disjointWith rdf:resource="#Desert" />
+    <owl:disjointWith rdf:resource="#Mild" />
+    <owl:disjointWith rdf:resource="#Subtropical" />
+  </owl:Class>
+  <owl:Class rdf:ID="Environmental_Region">
+    <rdfs:label xml:lang="en">Environmental region</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="Coastal">
+    <rdfs:label xml:lang="en">Coastal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Environmental_Region" />
+    <owl:disjointWith rdf:resource="#Hills" />
+    <owl:disjointWith rdf:resource="#Mountains" />
+    <owl:disjointWith rdf:resource="#OffShore" />
+    <owl:disjointWith rdf:resource="#OnShip" />
+    <owl:disjointWith rdf:resource="#Plains" />
+    <owl:disjointWith rdf:resource="#Space" />
+  </owl:Class>
+  <owl:Class rdf:ID="Hills">
+    <rdfs:label xml:lang="en">Hills</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Environmental_Region" />
+    <owl:disjointWith rdf:resource="#Coastal" />
+    <owl:disjointWith rdf:resource="#Mountains" />
+    <owl:disjointWith rdf:resource="#OffShore" />
+    <owl:disjointWith rdf:resource="#OnShip" />
+    <owl:disjointWith rdf:resource="#Plains" />
+    <owl:disjointWith rdf:resource="#Space" />
+  </owl:Class>
+  <owl:Class rdf:ID="Mountains">
+    <rdfs:label xml:lang="en">Mountains</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Environmental_Region" />
+    <owl:disjointWith rdf:resource="#Coastal" />
+    <owl:disjointWith rdf:resource="#Hills" />
+    <owl:disjointWith rdf:resource="#OffShore" />
+    <owl:disjointWith rdf:resource="#OnShip" />
+    <owl:disjointWith rdf:resource="#Plains" />
+    <owl:disjointWith rdf:resource="#Space" />
+  </owl:Class>
+  <owl:Class rdf:ID="OffShore">
+    <rdfs:label xml:lang="en">OffShore</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Environmental_Region" />
+    <owl:disjointWith rdf:resource="#Coastal" />
+    <owl:disjointWith rdf:resource="#Hills" />
+    <owl:disjointWith rdf:resource="#Mountains" />
+    <owl:disjointWith rdf:resource="#OnShip" />
+    <owl:disjointWith rdf:resource="#Plains" />
+    <owl:disjointWith rdf:resource="#Space" />
+  </owl:Class>
+  <owl:Class rdf:ID="OnShip">
+    <rdfs:label xml:lang="en">OnShip</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Environmental_Region" />
+    <owl:disjointWith rdf:resource="#Coastal" />
+    <owl:disjointWith rdf:resource="#Hills" />
+    <owl:disjointWith rdf:resource="#Mountains" />
+    <owl:disjointWith rdf:resource="#OffShore" />
+    <owl:disjointWith rdf:resource="#Plains" />
+    <owl:disjointWith rdf:resource="#Space" />
+  </owl:Class>
+  <owl:Class rdf:ID="Plains">
+    <rdfs:label xml:lang="en">Plains</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Environmental_Region" />
+    <owl:disjointWith rdf:resource="#Coastal" />
+    <owl:disjointWith rdf:resource="#Hills" />
+    <owl:disjointWith rdf:resource="#Mountains" />
+    <owl:disjointWith rdf:resource="#OffShore" />
+    <owl:disjointWith rdf:resource="#OnShip" />
+    <owl:disjointWith rdf:resource="#Space" />
+  </owl:Class>
+  <owl:Class rdf:ID="Space">
+    <rdfs:label xml:lang="en">Space</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Environmental_Region" />
+    <owl:disjointWith rdf:resource="#Coastal" />
+    <owl:disjointWith rdf:resource="#Hills" />
+    <owl:disjointWith rdf:resource="#Mountains" />
+    <owl:disjointWith rdf:resource="#OffShore" />
+    <owl:disjointWith rdf:resource="#OnShip" />
+    <owl:disjointWith rdf:resource="#Plains" />
+  </owl:Class>
+  <owl:Class rdf:ID="Geographical_Region">
+    <rdfs:label xml:lang="en">Geographical region</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Region" />
+  </owl:Class>
+  <owl:Class rdf:ID="Currency">
+    <rdfs:label xml:lang="en">Currency</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Language">
+    <rdfs:label xml:lang="en">Language</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="consistsOf">
+    <rdfs:domain rdf:resource="#Region" />
+    <rdfs:range rdf:resource="#Region" />
+    <owl:inverseOf rdf:resource="#isPartOf" />
+    <rdf:type rdf:resource="&owl;#TransitiveProperty" />
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="isPartOf">
+    <rdfs:domain rdf:resource="#Region" />
+    <rdfs:range rdf:resource="#Region" />
+    <owl:inverseOf rdf:resource="#consistsOf" />
+    <rdf:type rdf:resource="&owl;#TransitiveProperty" />
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="hasOfficialLanguage">
+    <rdfs:domain rdf:resource="#Administrative_Region" />
+    <rdfs:range rdf:resource="#Language" />
+    <owl:inverseOf rdf:resource="#isOfficialLanguageOf" />
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="isOfficialLanguageOf">
+    <rdfs:domain rdf:resource="#Language" />
+    <rdfs:range rdf:resource="#Administrative_Region" />
+    <owl:inverseOf rdf:resource="#hasOfficialLanguage" />
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="uses">
+    <rdfs:domain rdf:resource="#Country" />
+    <rdfs:range rdf:resource="#Currency" />
+    <owl:inverseOf rdf:resource="#isUsedIn" />
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="isUsedIn">
+    <rdfs:domain rdf:resource="#Currency" />
+    <rdfs:range rdf:resource="#Country" />
+    <owl:inverseOf rdf:resource="#uses" />
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="code">
+    <rdfs:domain rdf:resource="#Currency" />
+    <rdfs:range rdf:resource="&xsd;#int" />
+    <rdf:type rdf:resource="&owl;#FunctionalProperty" />
+  </owl:DatatypeProperty>
+</rdf:RDF>
