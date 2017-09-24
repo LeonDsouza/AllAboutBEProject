@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#FormerRulers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#FormerRulers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#GDP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#GDP"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#HasMountains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#HasMountains"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#MajorCities -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#MajorCities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#MemberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#MemberOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#PlaysSports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#PlaysSports"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#PrimaryOccupation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#PrimaryOccupation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#TwinCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#TwinCountry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#TypeOfGov -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#TypeOfGov"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#capital -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#capital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#currency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#currency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#exports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#exports"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#hasPM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#hasPM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#imports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#imports"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#languages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#languages"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#religion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#religion"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#China -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#China">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#India -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#India">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Iraq -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Iraq">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Japan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Japan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Nepal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Nepal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#NorthKorea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#NorthKorea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Pakistan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Pakistan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#SouthKorea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#SouthKorea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Srilanka -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Srilanka">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Thailand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Thailand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abc/ontologies/2017/3/untitled-ontology-6#Country"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
